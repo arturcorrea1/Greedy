@@ -1,0 +1,121 @@
+/* parte de cima (pedir ajuda pra deixar arrumado) */
+
+header {
+    background-color: #4f1c33;
+    padding: 10px;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+
+nav {
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.menu li{
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .menu li a{
+    text-decoration: none;
+    color: hwb(0 100% 0%);
+    text-align: center;
+ 
+    display: inline-block;
+}
+  
+/* parte de login  */
+.login-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login{
+    width: 300px;
+    padding: 20px;
+    border: 1px solid hwb(0 100% 0%);
+    margin-right: 20px;
+    box-shadow: 1px 1px 20px;
+    color: #fff;
+}
+
+form{
+    margin-bottom: 20px;
+}
+
+h2{
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.cacaca{
+    margin-bottom: 10px;
+}
+
+label{
+    display: block;
+    font-family: sans-serif;
+    margin-bottom: 5px;
+}
+
+input{
+    width: 100%;
+    padding: 5px;
+    font-family: sans-serif;
+    border: 1px solid hwb(0 19% 80%);
+    border-radius: 4px;
+
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-family: sans-serif;
+    background-color: hwb(0 98% 2%);
+    border: none;
+    border-radius: 4px;
+    align-items: center;
+    text-decoration: none;
+}
+
+body{
+    background-color: #4f1c33;
+}
+
+.logo{
+
+  height: 100px;
+}
+
+div, logo, ul, li, a{
+    text-align: center;
+    
+    
+}
+
+.cadastro{
+    width: 300px;
+    padding: 20px;
+    border: 1px solid hwb(0 100% 0%);
+    margin-right: 20px;
+    box-shadow: 1px 1px 20px;
+    color: #fff;
+}
+
+.botaozinho{
+    margin-top: 10%;
+}

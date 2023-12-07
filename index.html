@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="shortcut icon" href="android-chrome-512x512-removebg-preview.png" type="image/x-icon">
+</head>
+<body>
+<!-- header -->
+            <header class="">
+               <img src="./assets/logo__real_-removebg-preview.png" alt="" class="logo"> 
+                <ul class="menu">
+                    <li><a href="catalogo.html">Catálogo</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="info.html">Informações</a></li>
+                </ul>
+               
+            </header>
+<!-- cadastro -->
+<main>
+            <div class="login-container">
+                <div class="cadastro">
+                    <h2>Cadastro</h2>
+                    <form>
+                        <div class="cacaca">
+                            <label for="nome">Nome:</label>
+                            <input type="text" id="nome" required placeholder="Digite seu nome">
+                        </div>
+                        <div class="cacaca">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" required placeholder="Digite seu e-mail">
+                        </div>
+                        <div class="cacaca">
+                            <label for="telefone">Telefone:</label>
+                            <input type="tel" id="telefone" required placeholder="Digite seu telefone">
+                        </div>
+                        <div class="cacaca">
+                            <label for="senha">Senha:</label>
+                            <input type="password" id="senha" required placeholder="Digite uma senha">
+                            <input type="checkbox" id="mostrar-senha-cadastro" value="mostrar">
+                            <label for="mostrar-senha-cadastro">Mostrar senha</label>
+                        </div>
+                        <div class="cacaca">
+                            <label for="repetir-senha">Repetir senha:</label>
+                            <input type="password" id="repetir-senha" required>
+                        </div>
+                        <button type="submit">Cadastrar</button>
+                    </form>
+                </div>
+<!-- login na direita -->
+                <div class="login">
+                    <h2>Login</h2>
+                    <form>
+                        <div class="cacaca">
+                            <label for="email-login">Email:</label>
+                            <input type="email" id="email-login" required placeholder="Digite seu e-mail">
+                        </div>
+                        <div class="cacaca">
+                            <label for="senha-login">Senha:</label>
+                            <input type="password" id="senha-login" required placeholder="Digite sua senha">
+                            <input type="checkbox" id="mostrar-senha-login">
+                            <label for="mostrar-senha-login">Mostrar senha</label>
+                        </div>
+                       <a href="catalogo.html"> <button type="submit">Entrar</button></a>
+                    </form>
+                </div>
+            </div>
+    </main>
+</body>
+</html>
